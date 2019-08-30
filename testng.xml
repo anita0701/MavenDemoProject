@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="softwaretestingmaterial">
+ <test name="testngTest">
+ <classes>
+ <class name="com.qa.tests.DemoTest" /> 
+  <class name="com.qa.tests.Demotest1" /> 
+   <class name="com.qa.tests.Demotest2" /> 
+ </classes>
+ </test>
+</suite>

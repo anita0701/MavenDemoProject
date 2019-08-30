@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="47" started-at="2019-08-30T12:44:46 IST" finished-at="2019-08-30T12:44:46 IST">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="47" started-at="2019-08-30T12:44:46 IST" finished-at="2019-08-30T12:44:46 IST">
+      <class name="com.qa.tests.DemoTest">
+        <test-method status="PASS" signature="multiply()[pri:0, instance:com.qa.tests.DemoTest@2b9627bc]" name="multiply" duration-ms="10" started-at="2019-08-30T12:44:46 IST" finished-at="2019-08-30T12:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiply -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@2b9627bc]" name="sum" duration-ms="1" started-at="2019-08-30T12:44:46 IST" finished-at="2019-08-30T12:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.tests.DemoTest -->
+      <class name="com.qa.tests.Demotest2">
+        <test-method status="PASS" signature="division()[pri:0, instance:com.qa.tests.Demotest2@4f970963]" name="division" duration-ms="1" started-at="2019-08-30T12:44:46 IST" finished-at="2019-08-30T12:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- division -->
+      </class> <!-- com.qa.tests.Demotest2 -->
+      <class name="com.qa.tests.Demotest1">
+        <test-method status="PASS" signature="subtraction()[pri:0, instance:com.qa.tests.Demotest1@65e2dbf3]" name="subtraction" duration-ms="1" started-at="2019-08-30T12:44:46 IST" finished-at="2019-08-30T12:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtraction -->
+      </class> <!-- com.qa.tests.Demotest1 -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>
