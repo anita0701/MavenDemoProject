@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.DemoTest">
+      <class name="com.ts.qa.testcases.LoginpageTest">
         <methods>
-          <include name="sum"/>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.tests.DemoTest -->
+      </class> <!-- com.ts.qa.testcases.LoginpageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

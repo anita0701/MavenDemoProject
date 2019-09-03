@@ -11,6 +11,7 @@ public class Demotest2 {
 		int a= 10;
 		int b=5;
 		Assert.assertEquals(a/b, 2);
+		
 	}
 
 }

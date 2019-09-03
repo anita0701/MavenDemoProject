@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="37" started-at="2019-08-30T13:08:16 IST" finished-at="2019-08-30T13:08:16 IST">
+  <suite name="softwaretestingmaterial" duration-ms="35" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="37" started-at="2019-08-30T13:08:16 IST" finished-at="2019-08-30T13:08:16 IST">
+    <test name="testngTest" duration-ms="35" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
       <class name="com.qa.tests.DemoTest">
-        <test-method status="PASS" signature="multiply()[pri:0, instance:com.qa.tests.DemoTest@97e1986]" name="multiply" duration-ms="7" started-at="2019-08-30T13:08:16 IST" finished-at="2019-08-30T13:08:16 IST">
+        <test-method status="PASS" signature="multiply()[pri:0, instance:com.qa.tests.DemoTest@12843fce]" name="multiply" duration-ms="5" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiply -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@97e1986]" name="sum" duration-ms="1" started-at="2019-08-30T13:08:16 IST" finished-at="2019-08-30T13:08:16 IST">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@12843fce]" name="sum" duration-ms="1" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.tests.DemoTest -->
       <class name="com.qa.tests.Demotest2">
-        <test-method status="PASS" signature="division()[pri:0, instance:com.qa.tests.Demotest2@153f5a29]" name="division" duration-ms="1" started-at="2019-08-30T13:08:16 IST" finished-at="2019-08-30T13:08:16 IST">
+        <test-method status="PASS" signature="division()[pri:0, instance:com.qa.tests.Demotest2@97e1986]" name="division" duration-ms="0" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- division -->
       </class> <!-- com.qa.tests.Demotest2 -->
       <class name="com.qa.tests.Demotest1">
-        <test-method status="PASS" signature="subtraction()[pri:0, instance:com.qa.tests.Demotest1@26f67b76]" name="subtraction" duration-ms="0" started-at="2019-08-30T13:08:16 IST" finished-at="2019-08-30T13:08:16 IST">
+        <test-method status="PASS" signature="subtraction()[pri:0, instance:com.qa.tests.Demotest1@3dd3bcd]" name="subtraction" duration-ms="0" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtraction -->
