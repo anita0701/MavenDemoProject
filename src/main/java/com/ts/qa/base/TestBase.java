@@ -42,7 +42,10 @@ public class TestBase {
 		if(browserName.equals("chrome"))
 		{
 			System.out.println("setting driver path");
-			System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
+			//System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
+			System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+		//	System.out.println("chrome path: "+chromeproperty);
+			
 			System.out.println("Initialize chromedriver");
 			 driver = new ChromeDriver();
 			 System.out.println("chromedriver object created");
