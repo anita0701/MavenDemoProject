@@ -20,7 +20,7 @@ public class TestBase {
 	{
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("/home/anita/eclipse-workspace/mavendemotest/src/main/java/com/ts/qa/config/config.properties");
+			FileInputStream ip = new FileInputStream("/mavendemotest/src/main/java/com/ts/qa/config/config.properties");
 			prop.load(ip);
 			
 		} catch (FileNotFoundException e) {
@@ -37,7 +37,7 @@ public class TestBase {
 		String browserName =  prop.getProperty("browser");
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","/home/anita/eclipse-workspace/seleniumtest/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver","/mavendemotest/drivers/chromedriver");
 			 driver = new ChromeDriver();
 			 driver.manage().window().maximize();
 			 driver.manage().deleteAllCookies();
