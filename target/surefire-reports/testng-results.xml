@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="35" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
+  <suite name="TownscriptSuite" duration-ms="3564" started-at="2019-09-04T14:50:04 IST" finished-at="2019-09-04T14:50:08 IST">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="35" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
-      <class name="com.qa.tests.DemoTest">
-        <test-method status="PASS" signature="multiply()[pri:0, instance:com.qa.tests.DemoTest@12843fce]" name="multiply" duration-ms="5" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
+    <test name="testngTest" duration-ms="3564" started-at="2019-09-04T14:50:04 IST" finished-at="2019-09-04T14:50:08 IST">
+      <class name="com.ts.qa.testcases.LoginpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@5afa04c]" name="setup" is-config="true" duration-ms="3427" started-at="2019-09-04T14:50:04 IST" finished-at="2019-09-04T14:50:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiply -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.tests.DemoTest@12843fce]" name="sum" duration-ms="1" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@5afa04c]" name="loginPageTitleTest" duration-ms="47" started-at="2019-09-04T14:50:08 IST" finished-at="2019-09-04T14:50:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- com.qa.tests.DemoTest -->
-      <class name="com.qa.tests.Demotest2">
-        <test-method status="PASS" signature="division()[pri:0, instance:com.qa.tests.Demotest2@97e1986]" name="division" duration-ms="0" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@5afa04c]" name="tearDown" is-config="true" duration-ms="69" started-at="2019-09-04T14:50:08 IST" finished-at="2019-09-04T14:50:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- division -->
-      </class> <!-- com.qa.tests.Demotest2 -->
-      <class name="com.qa.tests.Demotest1">
-        <test-method status="PASS" signature="subtraction()[pri:0, instance:com.qa.tests.Demotest1@3dd3bcd]" name="subtraction" duration-ms="0" started-at="2019-08-30T15:16:00 IST" finished-at="2019-08-30T15:16:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtraction -->
-      </class> <!-- com.qa.tests.Demotest1 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ts.qa.testcases.LoginpageTest -->
     </test> <!-- testngTest -->
-  </suite> <!-- softwaretestingmaterial -->
+  </suite> <!-- TownscriptSuite -->
 </testng-results>

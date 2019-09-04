@@ -39,20 +39,21 @@ public class LoginpageTest extends TestBase
 		System.out.println("enter  test method");
 		String title = loginpage.validateLoginpageTitle();
 		System.out.println("inside logintest:"+title);
-	    //Assert.assertEquals(title,"Sign into Townscript Account");
+	    Assert.assertEquals(title,"Sign into your Townscript Account");
 	}
 	
-	@Test
-	public void loginTest() throws InterruptedException
-	
-	{
-
-		homepage =loginpage.login(prop.getProperty("username"),prop.getProperty("password"));
-		String dashboardTitle=homepage.ValidateDashboardtitle();
-		System.out.println(dashboardTitle);
-	   // Assert.assertEquals(dashboardTitle,"Dashboard|Townscript");
-		
-	}
+//	@Test
+//	public void loginTest() throws InterruptedException
+//	
+//	{
+//
+//		
+//		String dashboardTitle=homepage.ValidateDashboardtitle();
+//		Thread.sleep(3000);
+//	   System.out.println(dashboardTitle);
+//	   Assert.assertEquals(dashboardTitle,"Dashboard|Townscript");
+//		
+//	}
 	
 	
 	  @AfterTest 

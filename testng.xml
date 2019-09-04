@@ -2,7 +2,7 @@
 <suite name="TownscriptSuite">
  <test name="testngTest">
  <classes>
- <class name="com.ts.qa.testcases.LoginPagetest"/>
+ <class name="com.ts.qa.testcases.LoginpageTest"/>
  </classes>
  </test>
 </suite>

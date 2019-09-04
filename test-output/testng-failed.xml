@@ -5,7 +5,6 @@
     <classes>
       <class name="com.ts.qa.testcases.LoginpageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
           <include name="tearDown"/>
           <include name="loginTest"/>
           <include name="setup"/>
