@@ -15,12 +15,14 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	public static Properties prop;
+
+	static String  user_dir = System.getProperty("user.dir");
 	
 	public TestBase() 
 	{
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("/mavendemotest/src/main/java/com/ts/qa/config/config.properties");
+			FileInputStream ip = new FileInputStream(user_dir+"//configfiles//config.properties");
 			prop.load(ip);
 			
 		} catch (FileNotFoundException e) {
@@ -37,7 +39,7 @@ public class TestBase {
 		String browserName =  prop.getProperty("browser");
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","/mavendemotest/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
 			 driver = new ChromeDriver();
 			 driver.manage().window().maximize();
 			 driver.manage().deleteAllCookies();
