@@ -22,8 +22,10 @@ public class TestBase {
 	{
 		prop = new Properties();
 		try {
+			System.out.println("resding config properties");
 			FileInputStream ip = new FileInputStream(user_dir+"//configfiles//config.properties");
 			prop.load(ip);
+			System.out.println("prop load successfully");
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -43,12 +45,16 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
 			System.out.println("Initialize chromedriver");
 			 driver = new ChromeDriver();
+			 System.out.println("chromedriver object created");
 			 driver.manage().window().maximize();
+			 System.out.println("windows maximized");
 			 driver.manage().deleteAllCookies();
+			 System.out.println("cookies deleted");
 			 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
 			 driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
-			 
+			 System.out.println("opening url");
 			 driver.get(prop.getProperty("url"));
+			 System.out.println("url opened success");
 			 }
 		
 	}
