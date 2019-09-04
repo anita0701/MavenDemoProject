@@ -1,7 +1,5 @@
 package com.ts.qa.base;
 
-
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -11,15 +9,9 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 import com.ts.qa.util.TestUtil;
 
 public class TestBase {
-	
-	private static PropertyFileReader propertyFileReader = null;
-	private static String testEnvironmentFilePath = "src/main/resources/com/townscript/automation/environment/test-environment-config.properties";
-
-	public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/build-automation/";
 	
 	public static WebDriver driver;
 	public static Properties prop;
@@ -50,10 +42,8 @@ public class TestBase {
 		if(browserName.equals("chrome"))
 		{
 			System.out.println("setting driver path");
-			System.setProperty("webdriver.chrome.driver", JENKINS_BUILD_PATH + PropertyFileReader.getInstance().getDriversPath() + "/ubuntu/chromedriver");
-			//System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
-			//System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
-		//	System.out.println("chrome path: "+chromeproperty);
+			System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
+		
 			
 			System.out.println("Initialize chromedriver");
 			 driver = new ChromeDriver();
