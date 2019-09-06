@@ -3,11 +3,16 @@ package com.ts.qa.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.ts.qa.util.TestUtil;
 
@@ -16,14 +21,14 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 
-	static String  user_dir = System.getProperty("user.dir");
+	public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/MavenDemotest_Pom/";
 	
 	public TestBase() 
 	{
 		prop = new Properties();
 		try {
 			System.out.println("resding config properties");
-			FileInputStream ip = new FileInputStream(user_dir+"//configfiles//config.properties");
+			FileInputStream ip = new FileInputStream(JENKINS_BUILD_PATH+"/configfiles//config.properties");
 			prop.load(ip);
 			System.out.println("prop load successfully");
 			
@@ -42,8 +47,14 @@ public class TestBase {
 		if(browserName.equals("chrome"))
 		{
 			System.out.println("setting driver path");
-			System.setProperty("webdriver.chrome.driver", user_dir +"//drivers//chromedriver");
 		
+
+			System.setProperty("webdriver.chrome.driver",JENKINS_BUILD_PATH+"drivers/chromedriver");
+			  ChromeOptions chromeOptions = new ChromeOptions(); 
+
+	     chromeOptions.addArguments("--headless");
+
+		    WebDriver driver = new ChromeDriver(chromeOptions);   
 			
 			System.out.println("Initialize chromedriver");
 			 driver = new ChromeDriver();

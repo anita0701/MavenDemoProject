@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.381" tests="3" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.22" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/anita/eclipse-workspace/mavendemotest/target/surefire/surefirebooter2162875651422219582.jar /home/anita/eclipse-workspace/mavendemotest/target/surefire 2019-09-04T15-02-51_895-jvmRun1 surefire313316998460481750tmp surefire_04753711684493597102tmp"/>
+    <property name="sun.java.command" value="/home/anita/eclipse-workspace/mavendemotest/target/surefire/surefirebooter3412402516746803002.jar /home/anita/eclipse-workspace/mavendemotest/target/surefire 2019-09-05T16-02-09_457-jvmRun1 surefire6805770342044382700tmp surefire_04896841937601461280tmp"/>
     <property name="surefire.test.class.path" value="/home/anita/eclipse-workspace/mavendemotest/target/test-classes:/home/anita/eclipse-workspace/mavendemotest/target/classes:/home/anita/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/anita/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/anita/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/anita/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/anita/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/anita/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/anita/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/anita/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/anita/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/anita/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/anita/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/anita/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/anita/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/anita/.m2/repository/org/apache/poi/poi/3.15/poi-3.15.jar:/home/anita/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/anita/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/anita/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/anita/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/anita"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/anita/eclipse-workspace/mavendemotest/target/surefire/surefirebooter2162875651422219582.jar"/>
+    <property name="surefire.real.class.path" value="/home/anita/eclipse-workspace/mavendemotest/target/surefire/surefirebooter3412402516746803002.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10"/>
@@ -58,58 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="setup" classname="com.ts.qa.testcases.LoginpageTest" time="0.264">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.ts.qa.testcases.LoginpageTest.setup(LoginpageTest.java:29)
-</failure>
-    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-]]></system-out>
-    <system-err><![CDATA[java.io.FileNotFoundException: /mavendemotest/src/main/java/com/ts/qa/config/config.properties (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at com.ts.qa.base.TestBase.<init>(TestBase.java:23)
-	at com.ts.qa.testcases.LoginpageTest.<init>(LoginpageTest.java:16)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23)
-	at org.testng.internal.InstanceCreator.instantiateUsingDefaultConstructor(InstanceCreator.java:193)
-	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:113)
-	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79)
-	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:114)
-	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:172)
-	at org.testng.TestClass.getInstances(TestClass.java:102)
-	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:82)
-	at org.testng.TestClass.init(TestClass.java:74)
-	at org.testng.TestClass.<init>(TestClass.java:39)
-	at org.testng.TestRunner.initMethods(TestRunner.java:463)
-	at org.testng.TestRunner.init(TestRunner.java:342)
-	at org.testng.TestRunner.init(TestRunner.java:295)
-	at org.testng.TestRunner.<init>(TestRunner.java:181)
-	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:618)
-	at org.testng.SuiteRunner.init(SuiteRunner.java:196)
-	at org.testng.SuiteRunner.<init>(SuiteRunner.java:127)
-	at org.testng.TestNG.createSuiteRunner(TestNG.java:1265)
-	at org.testng.TestNG.createSuiteRunners(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1093)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
-]]></system-err>
-  </testcase>
-  <testcase name="loginPageTitleTest" classname="com.ts.qa.testcases.LoginpageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.ts.qa.testcases.LoginpageTest" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.ts.qa.testcases.LoginpageTest" time="0.07"/>
 </testsuite>
