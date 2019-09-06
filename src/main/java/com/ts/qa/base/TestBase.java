@@ -54,10 +54,10 @@ public class TestBase {
 
 	     chromeOptions.addArguments("--headless");
 
-		    WebDriver driver = new ChromeDriver(chromeOptions);   
 			
 			System.out.println("Initialize chromedriver");
-			 driver = new ChromeDriver();
+
+		    WebDriver driver = new ChromeDriver(chromeOptions);   
 			 System.out.println("chromedriver object created");
 			 driver.manage().window().maximize();
 			 System.out.println("windows maximized");
