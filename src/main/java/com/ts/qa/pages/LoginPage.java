@@ -11,7 +11,7 @@ public class LoginPage extends TestBase{
 
 	//Initialization of page objects 
 		public LoginPage() {
-			super();
+			//super();
 			PageFactory.initElements(driver,this);
 		}
 		

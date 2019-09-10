@@ -2,23 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TownscriptSuite" duration-ms="4789" started-at="2019-09-05T16:02:10 IST" finished-at="2019-09-05T16:02:15 IST">
+  <suite name="TownscriptSuite" duration-ms="8002" started-at="2019-09-10T10:48:53 IST" finished-at="2019-09-10T10:49:01 IST">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="4789" started-at="2019-09-05T16:02:10 IST" finished-at="2019-09-05T16:02:15 IST">
+    <test name="testngTest" duration-ms="8002" started-at="2019-09-10T10:48:53 IST" finished-at="2019-09-10T10:49:01 IST">
       <class name="com.ts.qa.testcases.LoginpageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@5afa04c]" name="setup" is-config="true" duration-ms="4595" started-at="2019-09-05T16:02:10 IST" finished-at="2019-09-05T16:02:15 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@3c756e4d]" name="setup" is-config="true" duration-ms="7925" started-at="2019-09-10T10:48:53 IST" finished-at="2019-09-10T10:49:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@5afa04c]" name="loginPageTitleTest" duration-ms="68" started-at="2019-09-05T16:02:15 IST" finished-at="2019-09-05T16:02:15 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@3c756e4d]" name="loginPageTitleTest" duration-ms="50" started-at="2019-09-10T10:49:01 IST" finished-at="2019-09-10T10:49:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@5afa04c]" name="tearDown" is-config="true" duration-ms="90" started-at="2019-09-05T16:02:15 IST" finished-at="2019-09-05T16:02:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.ts.qa.testcases.LoginpageTest -->
     </test> <!-- testngTest -->
   </suite> <!-- TownscriptSuite -->

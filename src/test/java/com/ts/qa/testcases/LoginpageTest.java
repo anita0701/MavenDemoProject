@@ -56,9 +56,9 @@ public class LoginpageTest extends TestBase
 //	}
 	
 	
-	  @AfterTest 
-	  public void tearDown() 
-	  { driver.quit(); }
+//	  @AfterTest 
+//	  public void tearDown() 
+//	  { driver.quit(); }
 	 
 	
 

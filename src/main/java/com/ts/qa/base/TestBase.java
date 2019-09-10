@@ -13,25 +13,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.ts.qa.util.TestUtil;
 
+import com.ts.qa.util.WebEventListener;
+
 public class TestBase {
-	
+
 	public static WebDriver driver;
 	public static Properties prop;
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener event_listener;
 
-	public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/MavenDemotest_Pom/";
-	
+	//public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/MavenDemotest_Pom/";
+
 	public TestBase() 
 	{
 		prop = new Properties();
 		try {
 			System.out.println("resding config properties");
-			FileInputStream ip = new FileInputStream(JENKINS_BUILD_PATH+"/configfiles//config.properties");
+			FileInputStream ip = new FileInputStream("/home/anita/eclipse-workspace/mavendemotest/configfiles/config.properties");
 			prop.load(ip);
 			System.out.println("prop load successfully");
-			
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -40,36 +45,36 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static void initialization()
 	{
 		String browserName =  prop.getProperty("browser");
 		if(browserName.equals("chrome"))
 		{
 			System.out.println("setting driver path");
-		
 
-			System.setProperty("webdriver.chrome.driver",JENKINS_BUILD_PATH+"drivers/chromedriver");
-			  ChromeOptions chromeOptions = new ChromeOptions(); 
 
-	     chromeOptions.addArguments("--headless");
+			System.setProperty("webdriver.chrome.driver","/home/anita/eclipse-workspace/mavendemotest/drivers/chromedriver");
+			ChromeOptions chromeOptions = new ChromeOptions(); 
+            chromeOptions.addArguments("--headless");
+            System.out.println("Initialize chromedriver");
+            driver = new ChromeDriver(chromeOptions);
+            e_driver = new EventFiringWebDriver(driver);
+            event_listener = new WebEventListener();
+            e_driver.register(event_listener);
+            driver=e_driver;
+			System.out.println("chromedriver object created");
+			driver.manage().window().maximize();
+			System.out.println("windows maximized");
+			driver.manage().deleteAllCookies();
+			System.out.println("cookies deleted");
+			driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
+			System.out.println("opening url");
+			driver.get(prop.getProperty("url"));
+			System.out.println("url opened success");
+		}
 
-			
-			System.out.println("Initialize chromedriver");
-
-		    WebDriver driver = new ChromeDriver(chromeOptions);   
-			 System.out.println("chromedriver object created");
-			 driver.manage().window().maximize();
-			 System.out.println("windows maximized");
-			 driver.manage().deleteAllCookies();
-			 System.out.println("cookies deleted");
-			 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
-			 driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT,TimeUnit.SECONDS);
-			 System.out.println("opening url");
-			 driver.get(prop.getProperty("url"));
-			 System.out.println("url opened success");
-			 }
-		
 	}
 
 }
