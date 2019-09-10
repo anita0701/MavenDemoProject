@@ -55,10 +55,11 @@ public class TestBase {
 
 
 			System.setProperty("webdriver.chrome.driver",JENKINS_BUILD_PATH+"drivers/chromedriver");
-			ChromeOptions chromeOptions = new ChromeOptions(); 
-            chromeOptions.addArguments("--headless");
-            System.out.println("Initialize chromedriver");
-            driver = new ChromeDriver(chromeOptions);
+//			ChromeOptions chromeOptions = new ChromeOptions(); 
+//            chromeOptions.addArguments("--headless");
+//            System.out.println("Initialize chromedriver");
+//            driver = new ChromeDriver(chromeOptions);
+			driver = new ChromeDriver();
             e_driver = new EventFiringWebDriver(driver);
             event_listener = new WebEventListener();
             e_driver.register(event_listener);

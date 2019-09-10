@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3342" started-at="2019-09-10T10:48:27 IST" finished-at="2019-09-10T10:48:30 IST">
+  <suite name="TownscriptSuite" duration-ms="3111" started-at="2019-09-10T11:50:40 IST" finished-at="2019-09-10T11:50:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3342" started-at="2019-09-10T10:48:27 IST" finished-at="2019-09-10T10:48:30 IST">
+    <test name="testngTest" duration-ms="3111" started-at="2019-09-10T11:50:40 IST" finished-at="2019-09-10T11:50:43 IST">
       <class name="com.ts.qa.testcases.LoginpageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@32709393]" name="setup" is-config="true" duration-ms="3265" started-at="2019-09-10T10:48:27 IST" finished-at="2019-09-10T10:48:30 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@3cef309d]" name="setup" is-config="true" duration-ms="3022" started-at="2019-09-10T11:50:40 IST" finished-at="2019-09-10T11:50:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@32709393]" name="loginPageTitleTest" duration-ms="53" started-at="2019-09-10T10:48:30 IST" finished-at="2019-09-10T10:48:30 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.ts.qa.testcases.LoginpageTest@3cef309d]" name="loginPageTitleTest" duration-ms="67" started-at="2019-09-10T11:50:43 IST" finished-at="2019-09-10T11:50:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
       </class> <!-- com.ts.qa.testcases.LoginpageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testngTest -->
+  </suite> <!-- TownscriptSuite -->
 </testng-results>
