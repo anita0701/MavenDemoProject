@@ -26,14 +26,14 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener event_listener;
 
-	//public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/MavenDemotest_Pom/";
+	public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/MavenDemotest_Pom/";
 
 	public TestBase() 
 	{
 		prop = new Properties();
 		try {
 			System.out.println("resding config properties");
-			FileInputStream ip = new FileInputStream("/home/anita/eclipse-workspace/mavendemotest/configfiles/config.properties");
+			FileInputStream ip = new FileInputStream(JENKINS_BUILD_PATH+"configfiles/config.properties");
 			prop.load(ip);
 			System.out.println("prop load successfully");
 
@@ -54,7 +54,7 @@ public class TestBase {
 			System.out.println("setting driver path");
 
 
-			System.setProperty("webdriver.chrome.driver","/home/anita/eclipse-workspace/mavendemotest/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver",JENKINS_BUILD_PATH+"drivers/chromedriver");
 			ChromeOptions chromeOptions = new ChromeOptions(); 
             chromeOptions.addArguments("--headless");
             System.out.println("Initialize chromedriver");
